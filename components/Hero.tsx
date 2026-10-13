@@ -5,12 +5,6 @@ import { Icon } from "./Icons";
 export function Hero() {
   return (
     <section id="top" className="hero" aria-labelledby="hero-title">
-      <div className="hero__bg" aria-hidden="true">
-        <div className="hero__glow hero__glow--a" />
-        <div className="hero__glow hero__glow--b" />
-        <div className="hero__grid" />
-      </div>
-
       <div className="hero__inner container">
         <div className="hero__copy">
           <p className="eyebrow hero__eyebrow hero-in" style={{ "--d": "0ms" } as React.CSSProperties}>
